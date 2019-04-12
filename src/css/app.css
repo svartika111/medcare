@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+  background: #ececec;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+h1.large {
+  font-size: 64px;
+}
+
+form {
+  width: 505px;
+  margin: 0 auto;
+}
+
+.form-aligned {
+  margin: 100px auto;
+  width: 275px;
+}
+
+.centered {
+  margin: 0 auto;
+  display: block;
+}
+
+.container {
+  /* margin-top: 100px;
+  max-width: 960px; */
+  text-align: center;
+}
+
+.link {
+  color: white;
+  width: 100%;
+}
+
+ul {
+  height: 60px;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+  line-height: 60px;
+  font-size: 14px;
+}
+
+.jumbotron.large {
+  text-align: center;
+  height: 600px;
+}
+
+.main-jumbotron {
+  background: url('../../assets/wall.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+  z-index: 9999;
+  margin-top: -15px;
+  border-radius: 0;
+}
+
+.main-jumbotron h1 {
+  margin-top: 170px;
+}
+
+.full-grid {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.map-container {
+  position: relative;
+}
+
+.half-width {
+  float: left;
+  width: 50%
+}
+
+/*
+
+COLORS
+
+primary: #5d1049
+dark: #4e03da
+red: #e30425
+
+*/
+
+
+.navigation {
+  background-color: #ffffff;
+}
+
+.navigation li a {
+  color: #5d1049;
+  padding: 6px;
+  text-decoration: none;
+  transition: all .1s linear;
+}
+
+.navigation li a:hover {
+  color: #ffffff;
+  background-color: #5d1049;
+}
+
+.signOutPosition {
+  margin-top: 10px;
+  margin-right: 100px;
+  padding: 6px 18px;
+  border: 1px solid #5d1049 !important;
+  transition: all .1s linear !important;
+}
+
+.signOutPosition:hover {
+  background-color: #5d1049;
+}
+
+.signOutPosition:hover a{
+  text-decoration: none !important;
+  color: #fff;
+  transition: all .1s linear !important;
+}
+
+.signOutPosition a{
+  color: #222; 
+}
+
+.signOutPosition a:hover{
+  background-color: #5d1049;
+}
+
+.buttonLink {
+  cursor: pointer;
+}
+
+.error {
+  color: #ffffff;
+  background-color: #c0392b;
+  border-radius: 8px;
+  padding: 4px 12px;
+}

@@ -1,0 +1,39 @@
+{
+  "hospitals" : {
+    "2GAi8fygZ0dc0dAABkRYBSgnlTl1" : {
+      "address" : "Fortis, New Delhi",
+      "email" : "help@fortis.com",
+      "hospitalname" : "Fortis Escort",
+      "state" : "Delhi"
+    },
+    "pjkYOTprHBVioT2NXpR8LO6SNKh2" : {
+      "address" : "Max Hospital, Phase-1, Mohali",
+      "email" : "help@max.com",
+      "state" : "Chandigarh",
+      "username" : "Max Hospital"
+    },
+    "sE1FX2fNDpYmm7VOkRWb9FgPGYw2" : {
+      "address" : "PGI, Sector 12, Chandigarh",
+      "email" : "pgi@chandigarh.com",
+      "hospitalname" : "PGI Chandigarh",
+      "state" : "Chandigarh"
+    }
+  },
+  "users" : {
+    "uid001" : {
+      "name" : "Shubhkirti Sharma",
+      "bloodgGroup" : "O+ve",
+      "age" : "21"
+    },
+    "uid002" : {
+      "name" : "Parul Saini",
+      "bloodgGroup" : "A+ve",
+      "age" : "20"
+    },
+    "uid003" : {
+      "name" : "Shivam Sharma",
+      "bloodgGroup" : "B+ve",
+      "age" : "22"
+    }
+  }
+}
